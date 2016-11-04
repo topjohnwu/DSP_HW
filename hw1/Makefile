@@ -4,7 +4,7 @@ CFLAGS+= -O3
 CPPFLAGS += $(CFLAGS)
 LDFLAGS+=-lm     # link to math library
 
-TARGET= train test
+TARGET= train test accuracy
 
 all: $(TARGET)
 # type make/make all to compile test_hmm
